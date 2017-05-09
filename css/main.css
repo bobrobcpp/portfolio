@@ -1,0 +1,39 @@
+/*192.168.56.1*/
+
+
+
+body {
+
+}
+
+article {
+    width: 1000px;
+
+}
+
+h1 {
+    text-align: right;
+
+}
+
+h3 {
+    text-align: right;
+
+}
+
+img {
+    max-width:100%;
+
+}
+
+
+
+
+/* zocial */
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
