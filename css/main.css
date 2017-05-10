@@ -2,12 +2,17 @@
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    overflow: auto;
 }
 
 
-article{
-/*    width: 1000px;*/
+/*article{
+
 }
+
+section{
+
+}*/
 
 h1{
     font-size: 4em;
@@ -24,6 +29,8 @@ h3{
 
 img{
     max-width:100%;
+/*    display: block;
+    margin: 0 auto;*/
 }
 
 
@@ -34,11 +41,10 @@ hr{
 }
 
 .title-super{
-  font-size: 60px;
+  font-size: 1.5em;
 }
 .logo_img{
-  height:80px;
-  max-height: 80%
+
 
 }
 .text_muted{
@@ -53,6 +59,10 @@ hr{
     text-align:center;
     color:#2d3c49;
 }
+.center{
+  display: block;
+  margin:0 auto;
+}
 
 .app_links{
     display: block;
@@ -60,29 +70,47 @@ hr{
     color:#2d3c49;
 }
 
+
 .logo{
      animation: spin 0.5s;
 }
 /* zocial */
-[class*="zocial-"]:before {
+/*[class*="zocial-"]:before {
   color: black;
   display: inline-block;
   font-family: 'zocial', sans-serif;
   text-shadow: 3px 3px 3px #aaa;
   width: 2em;
+}*/
+
+
+@media(min-width:767px){
+
+  .title-super{
+    font-size: 2em;
+  }
 }
 
-/*@media(max-width:767px){}
-
 @media(min-width:768px){
- body{
-  background-color: red;
+  .title-super{
+    font-size: 2em;
  }
 }
 
-@media(min-width:992px){}
+@media(min-width:992px){
+  .title-super{
+    font-size: 3em;
+  }
+}
 
-@media(min-width:1200px){}*/
+@media(min-width:1200px){
+  h4{
+    font-size: default;
+  }
+  .title-super{
+    font-size: 4em;
+  }
+}
 
 
 @keyframes spin{
