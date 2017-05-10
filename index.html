@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert King</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,500" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-6 logo_img">
             <img class="logo" src="images_src/fixed/udacity-logo_b.svg" alt="Udacity Logo">
         </div>
-        <div class="col-md-6">
-          <h1>ROBERT KING</h1>
-          <h3>Web Developer</h3>
+        <div class="col-xs-6 text-uppercase text-right">
+          <h1 class="text-thin title-super">Robert King</h1>
+          <h4>Web Developer</h4>
         </div>
       </div>
-      <hr>
+      <div class="row">
+        <div class="col-md-12">
+        <hr>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-12">
             <picture>
@@ -30,18 +37,18 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <h2>Featured Destinations</h2>
+        <div class="col-sm-12">
+          <h2 class="text_muted">Featured Destinations</h2>
         </div>
       </div>
 
       <div class="row">
 
-        <article class="col-md-4">
+        <article class="col-sm-4">
             <picture>
+                <source srcset="images/la-360.jpg, 360w" media="(min-width: 1000px)">
                 <source>
-                <source>
-                <img src="images/la-360.jpg" alt="View of Santa Monica, LA">
+                <img class="img-responsive" src="images/la-210.jpg"  alt="View of Santa Monica, LA">
             </picture>
             <h3 class = "app_titles">L.A.</h3>
             <p>
@@ -49,11 +56,11 @@
             </p>
         </article>
 
-        <article class="col-md-4">
+        <article class="col-sm-4">
             <picture>
+                <source srcset="images/rome-360.jpg, 360w" media="(min-width:1000px)">
                 <source>
-                <source>
-                <img src="images/rome-360.jpg" alt="View of Rome">
+                <img class="img-responsive" src="images/rome-210.jpg" alt="View of Rome">
             </picture>
             <h3 class ="app_titles">ROME</h3>
             <p>
@@ -61,11 +68,11 @@
             </p>
         </article>
 
-        <article class="col-md-4">
+        <article class="col-sm-4">
             <picture>
+                <source srcset="images/salalah-360.jpg, 360w" media="(min-width:1000px")>
                 <source>
-                <source>
-                <img src="images/salalah-360.jpg" alt="View of beach, Salalah">
+                <img class="img-responsive" src="images/salalah-210.jpg" alt="View of beach, Salalah">
             </picture>
             <h3 class = "app_titles">SALALAH</h3>
             <p>
