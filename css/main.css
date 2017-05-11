@@ -3,9 +3,8 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     overflow: auto;
-    margin-bottom: 2px;
+    margin: 0;
 }
-
 
 h1{
     font-size: 4em;
@@ -31,24 +30,14 @@ img{
 }
 
 hr{
-
     border-color:#7d97ad;
     border-width: 5px;
   }
+
   article {
     padding-top: 10px;
-/*    padding-bottom: 15px;
-    margin-bottom: 30px;*/
     border:0.5px solid;
-
 }
-
-.column-sm-4{
-/*  padding-right: 15px;
-  padding-left: 15px;*/
-  background-color: blue;
-}
-
 
 .title-super{
   font-size: 1.5em;
@@ -58,11 +47,11 @@ hr{
   margin-top: 10px;
 }
 
-
 .main-img{
   display:block;
   margin:0 auto;
 }
+
 .text_muted{
     color:#7d97ad;
     font-weight: bold;
@@ -71,11 +60,13 @@ hr{
 .text_thin{
     font-weight: 100;
 }
+
 .app_titles{
     text-align:center;
     color:#2d3c49;
     font-size: 1.7em;
 }
+
 .center{
   display: block;
   margin:0 auto;
@@ -89,13 +80,11 @@ hr{
 
 
 .logo-animation{
-     animation: spin 0.5s;
+  animation: spin 0.5s;
 }
 
 
-
 @media(min-width:767px){
-
   .title-super{
     font-size: 2em;
   }
@@ -107,27 +96,27 @@ hr{
     font-size:2em;
   }
   h4{
-  font-size: 16px;
- }
+    font-size: 16px;
+  }
 }
 
 @media(min-width:768px){
   .title-super{
     font-size: 2em;
- }
-   h2{
+  }
+  h2{
     font-size:2em;
   }
- h4{
-  font-size: 16px;
- }
+  h4{
+    font-size: 16px;
+  }
 }
 
 @media(min-width:992px){
   .title-super{
     font-size: 3em;
   }
-    h2{
+  h2{
     font-size:2.5em;
   }
   h4{
@@ -136,7 +125,6 @@ hr{
 }
 
 @media(min-width:1200px){
-
   .title-super{
     font-size: 4em;
   }
@@ -150,11 +138,11 @@ hr{
 
 
 @keyframes spin{
-0%{
-  transform:rotate(0deg) scale(0.1);
-}
+  0%{
+    transform:rotate(0deg) scale(0.1);
+  }
 
-100%{
-  transform:rotate(360deg) scale(1);
-}
+  100%{
+    transform:rotate(360deg) scale(1);
+  }
 }
