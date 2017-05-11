@@ -3,34 +3,31 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     overflow: auto;
+    margin-bottom: 50px;
 }
 
-
-/*article{
-
-}
-
-section{
-
-}*/
 
 h1{
     font-size: 4em;
 }
 
 h2{
-    font-size:2.5em;
+    font-size:1.5em;
+    text-align: center;
+    padding:10px;
 }
 
 h3{
     font-size:2.7em;
     font-weight: bold;
 }
+h4{
+  font-size: 13px;
+}
 
 img{
     max-width:100%;
-/*    display: block;
-    margin: 0 auto;*/
+
 }
 
 
@@ -38,14 +35,21 @@ hr{
 
     border-color:#7d97ad;
     border-width: 5px;
-}
+  }
+
 
 .title-super{
   font-size: 1.5em;
 }
+
 .logo_img{
 
+}
 
+
+.main-img{
+    display:block;
+  margin:0 auto;
 }
 .text_muted{
     color:#7d97ad;
@@ -58,6 +62,7 @@ hr{
 .app_titles{
     text-align:center;
     color:#2d3c49;
+    font-size: 1.7em;
 }
 .center{
   display: block;
@@ -71,17 +76,10 @@ hr{
 }
 
 
-.logo{
+.logo-animation{
      animation: spin 0.5s;
 }
-/* zocial */
-/*[class*="zocial-"]:before {
-  color: black;
-  display: inline-block;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  width: 2em;
-}*/
+
 
 
 @media(min-width:767px){
@@ -89,11 +87,27 @@ hr{
   .title-super{
     font-size: 2em;
   }
+  .app_titles{
+    font-size: 2.7em;
+  }
+  h2{
+    text-align: left;
+    font-size:2em;
+  }
+  h4{
+  font-size: 16px;
+ }
 }
 
 @media(min-width:768px){
   .title-super{
     font-size: 2em;
+ }
+   h2{
+    font-size:2em;
+  }
+ h4{
+  font-size: 16px;
  }
 }
 
@@ -101,14 +115,24 @@ hr{
   .title-super{
     font-size: 3em;
   }
+    h2{
+    font-size:2.5em;
+  }
+  h4{
+    font-size: 18px;
+  }
 }
 
 @media(min-width:1200px){
-  h4{
-    font-size: default;
-  }
+
   .title-super{
     font-size: 4em;
+  }
+  h2{
+    font-size:2.5em;
+  }
+  h4{
+    font-size: 20px;
   }
 }
 
