@@ -3,7 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     overflow: auto;
-    margin-bottom: 50px;
+    margin-bottom: 2px;
 }
 
 
@@ -30,12 +30,23 @@ img{
 
 }
 
-
 hr{
 
     border-color:#7d97ad;
     border-width: 5px;
   }
+  article {
+/*    padding-bottom: 15px;
+    margin-bottom: 30px;*/
+    border:0.5px solid;
+
+}
+
+.column-sm-4{
+/*  padding-right: 15px;
+  padding-left: 15px;*/
+  background-color: blue;
+}
 
 
 .title-super{
@@ -48,7 +59,7 @@ hr{
 
 
 .main-img{
-    display:block;
+  display:block;
   margin:0 auto;
 }
 .text_muted{
