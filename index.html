@@ -14,10 +14,11 @@
   <body>
     <div class="container-fluid">
       <header class="row">
-        <picture class="col-xs-6 logo_img">
-            <source srcset="images_src/fixed/logo-sm.svg, 100w" media="(min-width:767px)">
-            <img class="logo-animation img-responsive logo-sm" src="images_src/fixed/logo-xs.svg" alt="Udacity Logo">
-        </picture>
+
+        <div class="col-xs-6 logo_img">
+          <img class="logo-animation img-responsive logo-sm" src="images_src/fixed/logo-xs.svg" srcset="images_src/fixed/logo-xs.svg 400w, images_src/fixed/logo-sm.svg 1000w" sizes="100vw" alt="Udacity Logo">
+        </div>
+
         <div class="col-xs-6 text-uppercase text-right">
           <h1 class="text-thin title-super">Robert King</h1>
           <h4>Web Developer</h4>
@@ -25,17 +26,16 @@
       </header>
 
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 top-bar">
         <hr>
         </div>
       </div>
 
       <div class="row">
         <picture class="col-md-12">
-
-                <source srcset="images/tiber-1140.jpg 1x, images/tiber-2280.jpg 2x" media="(min-width: 1000px)">
-                <source srcset="images/tiber-800.jpg 1x, images/tiber-1140.jpg 2x" media="(min-width: 350px)">
-                <img class="main-img" src="images/tiber-800.jpg" alt="View of River Tiber, Rome">
+          <source srcset="images/tiber-1140.jpg 1x, images/tiber-2280.jpg 2x" media="(min-width: 1000px)">
+          <source srcset="images/tiber-800.jpg 1x, images/tiber-1140.jpg 2x" media="(min-width: 350px)">
+          <img class="main-img" src="images/tiber-800.jpg" alt="View of River Tiber, Rome">
         </picture>
       </div>
       <div class="row">
@@ -44,54 +44,46 @@
         </div>
       </div>
 
-      <section class="row">
-
+      <div class="row">
         <article class="col-sm-4">
-            <picture>
-                <source srcset="images/la-360.jpg 1x, images/la-720.jpg 2x" media="(min-width: 1000px)">
-                <source srcset="images/la-210.jpg 1x, images/la-420.jpg 2x" media="(min-width:767px) and (max-width: 1000px)">
-                <source srcset="images/la-360.jpg 1x, images/la-720.jpg 2x" media="(min-width:365px) and (max-width: 767px)">
-                <img class="img-responsive center" src="images/la-210.jpg"  alt="View of Santa Monica, LA">
-            </picture>
-            <h3 class = "app_titles">L.A.</h3>
+          <picture>
+            <source srcset="images/la-360.jpg 1x, images/la-720.jpg 2x" media="(min-width: 1000px)">
+            <source srcset="images/la-210.jpg 1x, images/la-420.jpg 2x" media="(min-width:767px) and (max-width: 1000px)">
+            <source srcset="images/la-360.jpg 1x, images/la-720.jpg 2x" media="(min-width:365px) and (max-width: 767px)">
+            <img class="img-responsive center" src="images/la-210.jpg"  alt="View of Santa Monica, LA">
+          </picture>
+          <h3 class = "app_titles">L.A.</h3>
             <p>
-                <a class ="app_links" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+              <a class ="app_links" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
             </p>
         </article>
 
         <article class="col-sm-4">
-            <picture>
-                <source srcset="images/rome-360.jpg 1x, images/rome-720.jpg 2x" media="(min-width:1000px)">
-                <source srcset="images/rome-210.jpg 1x, images/rome-420.jpg 1x" media="(min-width:767px) and (max-width: 1000px)">
-                <source srcset="images/rome-360.jpg 1x, images/rome-720.jpg 1x" media="(min-width:365px) and (max-width: 767px)">
-                <img class="img-responsive center" src="images/rome-210.jpg" alt="View of Rome">
-            </picture>
-            <h3 class ="app_titles">ROME</h3>
+          <picture>
+            <source srcset="images/rome-360.jpg 1x, images/rome-720.jpg 2x" media="(min-width:1000px)">
+            <source srcset="images/rome-210.jpg 1x, images/rome-420.jpg 2x" media="(min-width:767px) and (max-width: 1000px)">
+            <source srcset="images/rome-360.jpg 1x, images/rome-720.jpg 2x" media="(min-width:365px) and (max-width: 767px)">
+            <img class="img-responsive center" src="images/rome-210.jpg" alt="View of Rome">
+          </picture>
+          <h3 class ="app_titles">ROME</h3>
             <p>
-                <a class ="app_links" href="http://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+              <a class ="app_links" href="http://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
             </p>
         </article>
 
         <article class="col-sm-4">
-            <picture>
-                <source srcset="images/salalah-360.jpg 1x, images/salalah-720.jpg 2x" media="(min-width:1000px)">
-                <source srcset="images/salalah-210.jpg 1x, images/salalah-420.jpg 2x" media="(min-width:767px) and (max-width: 1000px)">
-                <source srcset="images/salalah-360.jpg 1x, images/salalah-720.jpg 2x" media="(min-width:365px) and (max-width: 767px)">
-                <img class="img-responsive center" src="images/salalah-210.jpg" alt="View of beach, Salalah">
-            </picture>
-            <h3 class = "app_titles">SALALAH</h3>
+          <picture>
+            <source srcset="images/salalah-360.jpg 1x, images/salalah-720.jpg 2x" media="(min-width:1000px)">
+            <source srcset="images/salalah-210.jpg 1x, images/salalah-420.jpg 2x" media="(min-width:767px) and (max-width: 1000px)">
+            <source srcset="images/salalah-360.jpg 1x, images/salalah-720.jpg 2x" media="(min-width:365px) and (max-width: 767px)">
+            <img class="img-responsive center" src="images/salalah-210.jpg" alt="View of beach, Salalah">
+          </picture>
+          <h3 class = "app_titles">SALALAH</h3>
             <p>
-                <a class ="app_links" href="https://github.com/Bokeh/">https://github.com/Bokeh/</a>
+              <a class ="app_links" href="https://github.com/Bokeh/">https://github.com/Bokeh/</a>
             </p>
         </article>
-
-
-      </section>
-
+      </div>
     </div>
-
-
-
-    <footer></footer>
   </body>
 </html>
