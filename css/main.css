@@ -1,53 +1,49 @@
 
 body{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    overflow: auto;
-    margin: 0;
+  /*Not using font shorthand due to not wanting to override font size.*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  overflow: auto;
+  margin: 0;
 }
 
 h1{
-    font-size: 4em;
+  font-size: 4em;
 }
 
 h2{
-    font-size: 1.5em;
-    text-align: center;
-    padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
 }
 
 h3{
-/*    font-size: 2.7em;
-    font-weight: bold;*/
-    font: bold 2.7em 'Lato', sans-serif;
+  font: bold 2.7em 'Lato', sans-serif;
 }
+
 h4{
   font-size: 13px;
 }
 
 img{
-    max-width: 100%;
-
+  max-width: 100%;
 }
 
 hr{
-/*    border-color: #7d97ad;
-    border-width: 5px;*/
-    border: 2px solid #7d97ad;
-  }
-
-article {
-    padding-top: 10px;
-    border: 0.5px solid;
+  border: 2px solid #79a;
 }
 
+article {
+  padding-top: 10px;
+  border: 0.5px solid;
+}
 
 .row{
   margin: 10px;
 }
 
 .top-bar{
-  height:15px;
+  height: 15px;
 }
 
 .title-super{
@@ -64,7 +60,7 @@ article {
 }
 
 .text_muted{
-  color: #7d97ad;
+  color: #79a;
   font-weight: bold;
 }
 
@@ -74,7 +70,7 @@ article {
 
 .app_titles{
   text-align: center;
-  color: #2d3c49;
+  color: #344;
   font-size: 1.7em;
 }
 
@@ -86,29 +82,31 @@ article {
 .app_links{
   display: block;
   text-align: center;
-  color: #2d3c49;
+  color: #344;
 }
-
 
 .logo-animation{
   animation: spin 0.5s;
 }
 
-
 @media(min-width:767px){
   .top-bar{
-  height: 20px;
-}
+    height: 20px;
+  }
+
   .title-super{
     font-size: 2em;
   }
+
   .app_titles{
     font-size: 2.7em;
   }
+
   h2{
     text-align: left;
     font-size: 2em;
   }
+
   h4{
     font-size: 16px;
   }
@@ -118,9 +116,11 @@ article {
   .title-super{
     font-size: 2em;
   }
+
   h2{
     font-size: 2em;
   }
+
   h4{
     font-size: 16px;
   }
@@ -129,13 +129,16 @@ article {
 @media(min-width:992px){
   .top-bar{
   height: auto;
-}
+  }
+
   .title-super{
     font-size: 3em;
   }
+
   h2{
     font-size: 2.5em;
   }
+
   h4{
     font-size: 18px;
   }
@@ -145,14 +148,15 @@ article {
   .title-super{
     font-size: 4em;
   }
+
   h2{
     font-size: 2.5em;
   }
+
   h4{
     font-size: 20px;
   }
 }
-
 
 @keyframes spin{
   0%{
